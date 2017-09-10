@@ -21,6 +21,6 @@ Over the next few months I am most excited to:
 ---
 Take a look at what I have done so far!
 I have organized and well labled my files as you can see in this image
-![Screenshot Of my Directory](Project- 1/images/screenshot-1.png)
+![Screenshot of my Directory](./Images/ScreenShot-%201.png)
 
 Also, I learned the language to make a header! `# My First README.MD`
