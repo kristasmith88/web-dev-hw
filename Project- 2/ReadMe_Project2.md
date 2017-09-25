@@ -2,7 +2,7 @@
 ## Krista Smith
 
 ### BEHOLD, my second ReadMe file!
-This week I am feeling a little better as I now have a basic understanding of the layout. Github and Atom have been working perfectly which has made the experience really fun to explore them a little bit more. I did notice that I am having to go back to look at the previous weeks instructions because I forget the steps of making a read me and the html for our sites. However this was very easy to navigate through and I am hoping that as we continue on I will get to the point when I dont need to look back at the step by step instructions. I am making to how to list though just in case.(insert smiley face)
+This week I am feeling a little better as I now have a basic understanding of the layout. [Github](https://github.com/) and Atom have been working perfectly which has made the experience really fun to explore them a little bit more. I did notice that I am having to go back to look at the previous weeks instructions because I forget the steps of making a read me and the html for our sites. However this was very easy to navigate through and I am hoping that as we continue on I will get to the point when I dont need to look back at the step by step instructions. I am making to how to list though just in case.[smiley face](./images/Smiley.png)
 
 ---
 ### Tasks
