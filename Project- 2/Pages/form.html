@@ -1,0 +1,39 @@
+form.html
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="HTML Head Elements">
+      <meta name="author" content="Krista Smith">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+      <style>
+         body {background-color: #f1f1f1; font-family: 'Lato', sans-serif;}
+         h1 {color: #444;}
+         p {color: #777;}
+      </style>
+   </head>
+      <body>
+          <h1>How Bout' Them Apples?</h1>
+  <form action="https://www.example.com/profile.php" mehod="post" id="example-form" class="form-class">
+    <p>How easy did you find this reciepe?
+       <br />
+      <input type="radio" name="genre" value="pop" /> Difficult
+       <br />
+      <input type="radio" name="genre" value="jazz" checked="checked" /> Moderate
+       <br />
+      <input type="radio" name="genre" value="rock" /> Easy
+       <br />
+   </p>
+ </form>
+ <hr>
+ <form action="https://www.example.com" method="post" id="example-form" class="form-class">
+   <p>Upload your reciepe for Baked Apples</p>
+   <input type="file" name="user-Recipe" />
+      <br />
+   <input type="submit" value="Upload" />
+</form>
+
+
+</body>
+</html>
