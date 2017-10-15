@@ -34,3 +34,14 @@ This week provided to be a little more difficult for me. I was really struggling
 The *images* were actually really fun and very easy to work with. I had to played around a little bit with them and their sizing to get them to not stretch to much and fit properly into the space.
 
 *Forms* was very cool to see the interworkings of how this works. I was employeed at a place where they were wanting this on the website and we could not figure out how to make that happen. Who knew it was so easy!? It will be interesting, if we get there, to see how they need to conect to other sites for the data to be collected, as for now, we are using example sites.
+
+---
+## Pt.3 of Instructables WEbsite
+### Tasks
+1. Iframe
+2. Id, classes and divs
+3. Self hosted and Media hosting pages
+
+This week I sturggled with a little bit more, there were certain times when woking with the divs that I was stuggling with in atom as they were messing up the look of my page when trying to put in a header and a content block in the about page. However, I ended up using just a simple header and paragraph element as I could not get the code to work after looking at it for a while. One thing that I really liked this week was how simple it is to place in embeded media into the webpage. It was pretty amazing how easy sites like Google and Youtube make this by providing the entire link to make that happen.
+
+I also struggled for a while getting the image provided in the about me page and after fiddeling with it for a while realized that I simply forgot an extra period at the beginning, showing me again, how important it is to look at those details.
