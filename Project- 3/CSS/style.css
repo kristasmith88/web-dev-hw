@@ -1,0 +1,201 @@
+* {
+    font-family: 'OpenSans';
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+
+/* Base of Site Page */
+.main-container {
+  border-style: none;
+  padding: 10px;
+  background: rgb(255, 255,255);
+}
+
+/*Background for the Body of the site  */
+.body {
+    font-size: 12pt;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(198,183,154);
+    background-color: rgb(255,255,255);
+    font-family: sans-serif;
+    line-height: 1.45em;
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
+    padding: 8px;
+}
+
+.body-2 {
+    font-size: 12pt;
+    background-color: rgb(255,255,255);
+    font-family: sans-serif;
+    line-height: 1.45em;
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
+    padding: 8px;
+}
+
+.heading {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(189,146,153);
+    background-color: rgb(189,146,153);
+    text-align: center;
+    text-decoration: none;
+    font-family: opensans, monospace, sans-serif;
+    font-size: 300%;
+    text-shadow: 1px 1px 2px #666666;
+    padding: 0px;
+    padding-bottom: 5px;
+    font-variant: none;
+    letter-spacing: 0.1em;
+    word-spacing: 1.5px;
+    font-weight: normal;
+    color: rgb(255,255,255);
+    line-height: 1.45em;
+    display: block;
+  }
+
+h1 {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-BoldItalic.ttf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(65, 23, 45);
+  font-size: 20pt;
+  text-decoration: underline;
+  }
+
+h2 {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Light.ttf') format('opentype');
+  font-weight: light;
+  font-style: normal;
+  color: rgb(65, 23, 45);
+  font-size: 15pt;
+  text-decoration: none;
+  }
+
+  .PoemBody {
+    font-size: 16pt;
+    color: rgb(65,23,45);
+    font-family: sans-serif;
+    line-height: 1.45em;
+    letter-spacing: 0.1em;
+    word-spacing: 1px;
+    padding: 8px;
+  }
+
+  .text-element::first-letter {
+    color: rgb(65, 23, 45);
+    font-size: 200%;
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-BoldItalic.ttf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .about {
+    font-size: 16pt;
+    word-spacing: 1.5px;
+    line-height: 1.45em;
+    text-indent: inherit;
+    color: rgb(255, 255, 255);
+  }
+
+  .parent-1 {
+   background-color: rgb(208, 238, 240);
+   padding: 1em;
+   margin: 1em;
+   height: 970px;
+   width: 550px;
+   float: right;
+}
+.parent-1 div {
+   background-color: rgb(189,146,153);
+   padding: 1.5em;
+   margin: .5em;
+}
+.Title {
+   color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 14pt;
+}
+.reviewone {
+   color: rgb(255, 255, 255);
+  text-align: justify;
+     font-style: italic;
+  font-size: 12pt;
+}
+.reviewtwo{
+   color: rgb(255, 255, 255);
+   text-align: justify;
+      font-style: italic;
+   font-size: 12pt;
+}
+.reviewthree{
+   color: rgb(255, 255, 255);
+   text-align: justify;
+      font-style: italic;
+   font-size: 12pt;
+}
+
+.parent-2 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(198,183,154);
+  background-color: rgb(208, 238, 240);
+ font-color: rgb(255, 255, 255);
+ padding: 1em;
+ margin: .5em;
+display: block;
+}
+
+.parent-2 div {
+   background-color: rgb(198,183,154);
+   padding: 1.5em;
+   margin: .5em;
+}
+.Title {
+   color: rgb(65, 23, 45);
+  text-align: center;
+  font-size: 20pt;
+}
+.content {
+   color: rgb(255, 255, 255);
+  text-align: justify;
+  font-size: 18pt;
+}
+
+.forms {
+   color: rgb(255, 255, 255);
+  text-align: justify;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.quote{
+  font-family: fantasy;
+  text-transform: capitalize;
+  font-size: 14pt;
+  color: rgb(189,146,153);
+  border-style: ridge;
+  border-width: 3px;
+  border-color: rgb(198,183,154);
+  background-color: rgb(255,255,255);
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 4px;
+  font-variant: none;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  word-spacing: 1.5px;
+
+  line-height: 1.45em;
+  display: block;
+}
+
+h3 {color: white;
+}
