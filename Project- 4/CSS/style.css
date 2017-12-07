@@ -68,7 +68,7 @@ body {
 
 .links {
   background-color: rgb(15,86,95);
-  text-align: center;
+  text-align: justify;
   line-height: 50px;
   padding: 0px;
   font-kerning: auto;
@@ -76,17 +76,21 @@ body {
 }
 
 .image {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10pt;
     background-color: rgb(250,246,235);
     max-width: 100%;
     height: auto;
-
+    color: rgb(38,38,38);
+    
 
 }
 
 .pink {
     background-color: rgb(242,104,97);
-    width: 300px;
+    max-width: 100%;
     height: auto;
+
 
 }
 
@@ -103,12 +107,8 @@ body {
   .navagation {
       width: 100%;
   }
-    .image, .pink {
-        width: 50%;
-  }
-  .green {
-      width: 100%;
-}
+    .image, .pink, .green {
+        width: 33.3%;
 }
 
 @media (min-width: 550px) {
@@ -118,10 +118,14 @@ body {
   .navagation {
       width: 100%;
   }
-    .image, .pink, .green {
-        width: 33.%;
+    .image, .pink {
+        width: 50%;
         font-size: 18pt;
       }
+      .green {
+          width: 100%;
+          font-size: 18pt;
+        }
 }
 
 
