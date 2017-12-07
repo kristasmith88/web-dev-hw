@@ -14,6 +14,6 @@ the secondary content is why designers use RWD!
 
 #### My Wireframe
 
-(../Images/wireframe.jpg)
+(./Images/wireframe.jpg)
 
 One thing that I did chnage during this project was exicuting a different set up for the 550px site. After creating this wirframe I realized I could push this a little more and create a thrid dimention so that as the page grows the material grows with it. all I did was group the pink and image box together at 50% to make this happen.
