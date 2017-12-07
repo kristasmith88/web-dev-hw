@@ -4,7 +4,6 @@ img {
   max-height: 100%
 }
 body {
-  color: rgb(250,246,235);
   font-family: Arial, Verdana, sans-serif;
   align: center;
   background-color:
@@ -84,9 +83,11 @@ body {
     color: rgb(38,38,38);
 
 
+
 }
 
 .pink {
+   color: rgb(250,246,235);
     background-color: rgb(242,104,97);
     max-width: 100%;
     height: auto;
