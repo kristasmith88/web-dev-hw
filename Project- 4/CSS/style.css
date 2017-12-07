@@ -1,10 +1,13 @@
+
 img {
   max-width: 100%;
+  max-height: 100%
 }
-
 body {
   color: rgb(250,246,235);
   font-family: Arial, Verdana, sans-serif;
+  align: center;
+  background-color:
 
 }
 
@@ -12,11 +15,19 @@ body {
   h1 {
     width: 100%;
     height: 100px;
-    background-color: rgb(38,38,38);
     text-align: center;
-    line-height: 85px;
     padding: 1px;
     letter-spacing: 0.15em;
+  }
+
+  h4 {
+    padding: 10px;
+    p
+  }
+
+  p {
+    padding: 10px;
+    align: justify;
   }
 
 
@@ -47,52 +58,57 @@ body {
 .box {
     width: 100%;
     height: 300px;
-    overflow: auto;
-    padding: 15px;
+
 }
 
 .header {
   background-color: rgb(38,38,38);
+  height: 80%
 }
 
 .links {
   background-color: rgb(15,86,95);
   text-align: center;
-  line-height: 45px;
+  line-height: 50px;
   padding: 0px;
   font-kerning: auto;
+  height: 50%
 }
 
 .image {
     background-color: rgb(250,246,235);
-    width: 300px;
+    max-width: 100%;
     height: auto;
+
+
 }
 
 .pink {
     background-color: rgb(242,104,97);
+    width: 300px;
+    height: auto;
+
 }
 
 .green {
     background-color: rgb(204,224,205);
-    overflow: auto;
     color: rgb(15,86,95);
-    padding: 15px;
   }
 
 @media (min-width: 450px) {
   .header {
       width: 100%;
+      font-size: 12pt;
   }
   .navagation {
       width: 100%;
   }
     .image, .pink {
         width: 50%;
-    }
-    .green {
-        width: 100%;
-    }
+  }
+  .green {
+      width: 100%;
+}
 }
 
 @media (min-width: 550px) {
@@ -103,7 +119,9 @@ body {
       width: 100%;
   }
     .image, .pink, .green {
-        width: 20%;
+        width: 33.3%;
+        font-size: 18pt;
+      }
 }
 
 
