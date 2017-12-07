@@ -1,0 +1,116 @@
+img {
+  max-width: 100%;
+}
+
+body {
+  color: rgb(250,246,235);
+  font-family: Arial, Verdana, sans-serif;
+
+}
+
+  /* Site Name*/
+  h1 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(38,38,38);
+    text-align: center;
+    line-height: 85px;
+    padding: 1px;
+    letter-spacing: 0.15em;
+  }
+
+
+.menu-item {
+    font-family: sans-serif;
+    display: inline-block;
+    width: 8em;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(250,246,235);
+    margin: .25em;
+    font-size: 14pt;
+    font-weight: lighter;
+}
+
+/* Links: */
+.menu-item:hover, .dropdown:hover {
+    background-color: rgb(242,104,97);
+}
+
+/* Content*/
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    padding: 15px;
+}
+
+.header {
+  background-color: rgb(38,38,38);
+}
+
+.links {
+  background-color: rgb(15,86,95);
+  text-align: center;
+  line-height: 45px;
+  padding: 0px;
+  font-kerning: auto;
+}
+
+.image {
+    background-color: rgb(250,246,235);
+    width: 300px;
+    height: auto;
+}
+
+.pink {
+    background-color: rgb(242,104,97);
+}
+
+.green {
+    background-color: rgb(204,224,205);
+    overflow: auto;
+    color: rgb(15,86,95);
+    padding: 15px;
+  }
+
+@media (min-width: 450px) {
+  .header {
+      width: 100%;
+  }
+  .navagation {
+      width: 100%;
+  }
+    .image, .pink {
+        width: 50%;
+    }
+    .green {
+        width: 100%;
+    }
+}
+
+@media (min-width: 550px) {
+  .header {
+      width: 100%;
+  }
+  .navagation {
+      width: 100%;
+  }
+    .image, .pink, .green {
+        width: 33%;
+}
+
+
+@media (min-width: 700px) {
+    .main-container {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
